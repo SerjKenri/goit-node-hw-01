@@ -18,7 +18,7 @@ program.parse(process.argv);
 
 const argv = program.opts();
 
-function invokeAction({ action, id, name, email, phone }) {
+const invokeAction = ({ action, id, name, email, phone }) => {
     switch (action) {
         case 'list':
             listContacts();
@@ -39,6 +39,6 @@ function invokeAction({ action, id, name, email, phone }) {
         default:
             console.warn('\x1B[31m Unknown action type!');
     }
-}
+};
 
 invokeAction(argv);
