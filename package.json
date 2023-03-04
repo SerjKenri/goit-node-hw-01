@@ -1,15 +1,18 @@
 {
     "name": "goit-node-hw-01",
     "version": "1.0.0",
-    "description": "",
+    "description": "Homework 1 for the GoIT Node.js course",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node *.{js}",
-        "dev": "nodemon *.{js}"
+        "start": "node index.js",
+        "start:dev": "nodemon index.js"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "Node.js",
+        "homework"
+    ],
+    "author": "Your Name Here",
     "license": "ISC",
     "devDependencies": {
         "nodemon": "^2.0.21"
